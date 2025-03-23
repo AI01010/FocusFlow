@@ -218,7 +218,7 @@ const ProductivityApp = () => {
           </div>
           
           <div className="text-center">
-            <p className="text-gray-600">The Completed Pomodoros</p>
+            <p className="text-gray-600">Completed Pomodoros</p>
             <div className="flex justify-center space-x-1 mt-2">
               {[...Array(Math.min(completedPomodoros, 8))].map((_, i) => (
                 <div key={i} className="w-3 h-3 bg-blue-600 rounded-full"></div>
